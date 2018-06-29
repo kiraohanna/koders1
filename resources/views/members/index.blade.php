@@ -1,36 +1,35 @@
 @extends('layouts.app')
 
 @section('content')
-   <p>daiki</p>
-   
-        
+
+        <!--anna-->
         <div>
-            <a href="{!!link_to_route ('members.anna')}"><img src="pictures/annie.jpg" alt="アンナ">anna</a>
+            <a href="{!!link_to_route ('members.anna')!!}"><img src="pictures/annie.jpg" alt="アンナ"></a>
         </div>
        
-       //kanna
+       <!--kanna-->
         <div>
-            <a href="{!!link_to_route ('members.kanna')}"><img src="pictures/kanna.jpg" alt="カンナ">kanna</a>
+            <a href="{!!link_to_route ('members.kanna')!!}"><img src="pictures/kanna.jpg" alt="カンナ"></a>
         </div>
        
-       //shingo
+       <!--shingo-->
         <div>
-            <a href="{!!link_to_route ('members.shingo')}"><img src="pictures/shingo.jpg" alt="シンゴ">shingo</a>
+            <a href="{!!link_to_route ('members.shingo')!!}"><img src="pictures/shingo.jpg" alt="シンゴ"></a>
         </div>
        
-       //shungo
+       <!--shungo-->
         <div>
-            <a href="{!!link_to_route ('members.shungo')}"><img src="pictures/shungo.jpg" alt="シュンゴ">shungo</a>
+            <a href="{!!link_to_route ('members.shungo')!!}"><img src="pictures/shungo.jpg" alt="シュンゴ"></a>
         </div>
        
-       //daiki
+       <!--daiki-->
         <div>
-            <a href="{!!link_to_route ('members.daiki')}"><img src="pictures/daiki.jpg" alt="ダイキ">daiki</a>
+            <a href="{!!link_to_route ('members.daiki')!!}"><img src="pictures/daiki.jpg" alt="ダイキ"></a>
         </div>
        
-       //hisashi
+       <!--hisashi-->
         <div>
-            <a href="{!!link_to_route ('members.hisashi')}"><img src="pictures/shisashi.jpg" alt="ヒサシ">hisashi</a>
+            <a href="{!!link_to_route ('members.hisashi')!!}"><img src="pictures/shisashi.jpg" alt="ヒサシ"></a>
         </div>
     </div>    
 @endsection
