@@ -3,32 +3,32 @@
 @section('content')
         //anna
         <div>
-            <a href="{{route ('members.anna')}}" image src="annie.jpg" alt="アンナ"></a>
+            <a href="{{route ('members.anna')}}" img src="annie.jpg" alt="アンナ">anna</a>
         </div>
        
        //kanna
         <div>
-            <a href="{{route ('members.kanna')}}" image src="kanna.jpg" alt="カンナ"></a>
+            <a href="{{route ('members.kanna')}}" img src="kanna.jpg" alt="カンナ">kanna</a>
         </div>
        
        //shingo
         <div>
-            <a href="{{route ('members.shingo')}}" image src="shingo.jpg" alt="シンゴ"></a>
+            <a href="{{route ('members.shingo')}}" img src="shingo.jpg" alt="シンゴ">shingo</a>
         </div>
        
        //shungo
         <div>
-            <a href="{{route ('members.shungo')}}" image src="shungo.jpg" alt="シュンゴ"></a>
+            <a href="{{route ('members.shungo')}}" img src="shungo.jpg" alt="シュンゴ">shungo</a>
         </div>
        
        //daiki
         <div>
-            <a href="{{route ('members.daiki')}}" image src="daiki.jpg" alt="ダイキ"></a>
+            <a href="{{route ('members.daiki')}}" img src="daiki.jpg" alt="ダイキ">daiki</a>
         </div>
        
        //hisashi
         <div>
-            <a href="{{route ('members.hisashi')}}" image src="hisashi.jpg" alt="ヒサシ"></a>
+            <a href="{{route ('members.hisashi')}}" img src="hisashi.jpg" alt="ヒサシ">hisashi</a>
         </div>
     </div>    
 @endsection
