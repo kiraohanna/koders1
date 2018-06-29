@@ -4,32 +4,23 @@
 
         <!--anna-->
         <div>
-            <a href="{!!link_to_route ('members.anna')!!}"><img src="pictures/annie.jpg" alt="アンナ"></a>
+            <a href="{!! link_to_route('anna') !!}"><img src="{{ secure_asset("pictures/annie.jpg") }}" alt="アンナ"></a>
         </div>
-       
-       <!--kanna-->
         <div>
-            <a href="{!!link_to_route ('members.kanna')!!}"><img src="pictures/kanna.jpg" alt="カンナ"></a>
+            <a href="{!! link_to_route('anna') !!}"><img src="{{ secure_asset("pictures/kanna.jpg") }}" alt="カンナ"></a>
         </div>
-       
-       <!--shingo-->
         <div>
-            <a href="{!!link_to_route ('members.shingo')!!}"><img src="pictures/shingo.jpg" alt="シンゴ"></a>
+            <a href="{!! link_to_route('anna') !!}"><img src="{{ secure_asset("pictures/daiki.jpg") }}" alt="だいき"></a>
         </div>
-       
-       <!--shungo-->
         <div>
-            <a href="{!!link_to_route ('members.shungo')!!}"><img src="pictures/shungo.jpg" alt="シュンゴ"></a>
+            <a href="{!! link_to_route('anna') !!}"><img src="{{ secure_asset("pictures/shingo.jpg") }}" alt="しんご"></a>
         </div>
-       
-       <!--daiki-->
         <div>
-            <a href="{!!link_to_route ('members.daiki')!!}"><img src="pictures/daiki.jpg" alt="ダイキ"></a>
+            <a href="{!! link_to_route('anna') !!}"><img src="{{ secure_asset("pictures/shungo.jpg") }}" alt="しゅんご"></a>
         </div>
-       
-       <!--hisashi-->
         <div>
-            <a href="{!!link_to_route ('members.hisashi')!!}"><img src="pictures/shisashi.jpg" alt="ヒサシ"></a>
+            <a href="{!! link_to_route('anna') !!}"><img src="{{ secure_asset("pictures/hisashi.jpg") }}" alt="ひさし"></a>
         </div>
-    </div>    
+        
+           
 @endsection
