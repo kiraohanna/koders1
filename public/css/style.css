@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body {
+    background: #00bfff;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+.navbar {
+    background-color: #edde7b;
+}
+
+.cover .cover-contents {
+    text-align: center;
+}
+
+.cover .cover-contents h1 {
+    color: #fff;
+}
+
+.cover .btn-success {
+     background-color: #006888;
+     border-color: #006888;
+}
