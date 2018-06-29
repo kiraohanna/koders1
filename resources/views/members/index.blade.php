@@ -1,9 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-    @include('members.members', ['members' => $members])
-    <div class = >    
-        
         //anna
         <div>
             <a href="{{route ('members.anna')}}" image src="annie.jpg" alt="アンナ"></a>
