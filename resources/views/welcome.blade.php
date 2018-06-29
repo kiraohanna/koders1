@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('cover')
+@section('content')
     <div class="cover">
         <div class="cover-inner">
             <div class="cover-contents">
